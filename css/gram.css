@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.all {
+    padding-bottom: 500px 0;
+    background-color: #ffffff;
+}
+
+.all .gram-01 {
+    width: 1920px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+
+.all .picture-3 {
+    width: 1280px;
+    margin: 100px auto;
+}
+
+.all .picture-3 h1 { 
+    font-size: 48px;
+    margin-top: 160px;
+    text-align: left;
+}
+
+.all .picture-3 .group {
+    width: 1280px;
+    height: 600px;
+    margin-right: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .picture-3 .image img {
+    padding-top: 30px;
+    width: 410px;
+}
+
+.all .picture-3 .text {
+    padding: 10px;
+    text-align: center;
+}
+
+.all .picture-3 h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.all .picture-3 p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.all .last {
+    margin: 100px auto;
+}
+
+.all .last .tandi {
+    width: 1920px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .last .text {
+    padding-top: 150px
+}
+ 
+.all .last .text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.all .last .text h4 {
+    font-size: 48px;
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+.all .last .text h5 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 25px;
+    line-height: 1.6;
+}
+
+.all .last .text h6 {
+    padding-top: 100px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.all .last img {
+    width: 659px;
+    height: 700px;
+    object-fit: cover;
+}
